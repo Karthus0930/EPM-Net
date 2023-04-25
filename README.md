@@ -17,6 +17,7 @@ Code for "EPM-Net: Efficient Feature Extraction, Point-pair Feature Matching for
 * Pred mask of HybirdPose on LineMOD Occlusion dataset [[link](https://drive.google.com/file/d/1Jwp-J6opAAvtbMV1ewzhpBLoSjmZoMVJ/view)]
 
 ## Train
+Pre-trained models are provided ([Download]())
 Train our EPM-Net:
 
 For YCB-Video dataset and LineMOD dataset, run:
@@ -39,8 +40,16 @@ python eval_lmo.py --dataset_root path_to_lm_dataset --pred_mask path_to_hybirdp
 ## Results
 ADD(-S) performance on Occlusion LineMOD dataset
 
-| Method | --- | PoseCNN | Pix2Pose | PVNet | HybirdPose | PVN3D | PRGCN | BiCo-Net | EPM-Net |
-| Average of ADD(-S) | --- | 24.9 | 32.0 | 40.8 | 47.5 | 63.2 | 65.0 | 69.5 | 74.9 |
+| Method | Average of ADD(-S) |
+| --- | --- |
+| PoseCNN | :24.9: |
+| Pix2Pose | :32.0: |
+| PVNet | :40.8: |
+| HybirdPose | :47.5: |
+| PVN3D | :63.2: |
+| PRGCN | :65.0: |
+| BiCo-Net | :69.5: |
+| **EPM-Net** | **:74.9:** |
 
 ## Acknowledgement
-* Our implementation leverages the code from [[BiCo-Net](https://github.com/Gorilla-Lab-SCUT/BiCo-Net)]
+* Our implementation leverages the code from [BiCo-Net](https://github.com/Gorilla-Lab-SCUT/BiCo-Net)
