@@ -42,7 +42,7 @@ python eval_lmo.py --dataset_root path_to_lm_dataset --pred_mask path_to_hybirdp
 ADD(-S) performance on Occlusion LineMOD dataset
 
 | Method | Average of ADD(-S) |
-| --- | :---: |
+| :---: | :---: |
 | PoseCNN | 24.9 |
 | Pix2Pose | 32.0 |
 | PVNet | 40.8 |
