@@ -43,13 +43,15 @@ ADD(-S) performance on Occlusion LineMOD dataset
 
 | Method | Average of ADD(-S) |
 | :---: | :---: |
-| PoseCNN | 24.9 |
 | Pix2Pose | 32.0 |
 | PVNet | 40.8 |
 | HybirdPose | 47.5 |
 | PVN3D | 63.2 |
 | PRGCN | 65.0 |
+| KRF | 66.8 |
+| SO(3)-Pose | 68.4 |
 | BiCo-Net | 69.5 |
+| DCL-Net | 70.6 |
 | **EPM-Net** | **74.9** |
 
 ## Acknowledgement
