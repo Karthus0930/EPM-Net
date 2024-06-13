@@ -17,7 +17,7 @@ Code for "EPM-Net: Efficient Feature Extraction, Point-pair Feature Matching for
 * Pred mask of HybirdPose on LineMOD Occlusion dataset [[link](https://drive.google.com/file/d/1Jwp-J6opAAvtbMV1ewzhpBLoSjmZoMVJ/view)]
 
 ## Train
-Pre-trained models are provided ([Download]([https://pan.baidu.com/s/1fiQR-c0Kzo_U6f1QdJM3TQ](https://drive.google.com/file/d/175tNUD4OgZIgn8m_huBtR855LRQS1fOU/view)))
+Pre-trained models are provided [[Download](https://drive.google.com/file/d/175tNUD4OgZIgn8m_huBtR855LRQS1fOU/view?usp=drive_link)]
 
 Train our EPM-Net:
 
